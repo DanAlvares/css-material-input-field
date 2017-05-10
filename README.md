@@ -1,7 +1,7 @@
 # CSS Material Input Field
-An simple Angular material-like input field created using CSS only.
+An simple Angular material-like input field created using CSS only. Easily extensible for disabled states, other input types etc. 
 
-Easily extensible for disabled states, other input types etc. 
+Check out demo on [JSFiddle](https://jsfiddle.net/dmalvares/05sL63g2/1/)
 
 ## HTML
 ```html
@@ -49,5 +49,3 @@ input[type=email]:not(:placeholder-shown) {
   padding: 20px 5px 5px;
 }
 ```
-
-Preview demo on [JSFiddle](https://jsfiddle.net/dmalvares/05sL63g2/1/)
