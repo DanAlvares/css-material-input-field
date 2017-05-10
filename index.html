@@ -1,0 +1,43 @@
+<style>
+  .custom-input {
+    position: relative;
+  }
+  input {
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px #ccc;
+    padding: 5px;
+    transition: padding 0.4s;
+  }
+  input:placeholder-shown + label {
+    color: #aaa;
+    font-size: 14px;
+    left: 5px;
+    top: 5px;
+  }
+  input:focus + label,
+  label {
+    color: #4476bd;
+    font-size: 12px;
+    left: 2px;
+    pointer-events: none;
+    position: absolute;
+    top: 2px;
+    transition: top 0.4s, left 0.4s, font-size 0.4s;
+  }
+  input::placeholder{
+    color: transparent;
+  }
+  input:focus,
+  input:not(:placeholder-shown) {
+    border-bottom: solid 1px #4476bd;
+    outline: none;
+    padding: 20px 5px 5px;
+  }
+</style>
+
+
+<div class="custom-input">
+  <input id="EmailAddress" type="email" placeholder="Email address" />
+  <label for="EmailAddress">Email Address</label>
+</div>
