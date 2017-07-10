@@ -1,12 +1,12 @@
 # CSS Material Input Field
 An simple Angular material-like input field created using CSS only. Easily extensible for disabled states, other input types etc. 
 
-Check out the demo on [JSFiddle](https://jsfiddle.net/05sL63g2/2/)
+Check out the demo on [JSFiddle](https://jsfiddle.net/05sL63g2/9/)
 
 ## HTML
 ```html
 <div class="custom-input">
-  <input id="EmailAddress" type="email" placeholder="Email address" />
+  <input id="EmailAddress" type="email" placeholder=" " />
   <label for="EmailAddress">Email Address</label>
 </div>
 ```
