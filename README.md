@@ -1,7 +1,7 @@
 # CSS Material Input Field
 An simple Angular material-like input field created using CSS only. Easily extensible for disabled states, other input types etc. 
 
-Check out the demo on [JSFiddle](https://jsfiddle.net/05sL63g2/9/)
+Check out the demo on [JSFiddle](https://jsfiddle.net/dmalvares/05sL63g2/13/)
 
 ## HTML
 ```html
