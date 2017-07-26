@@ -6,7 +6,7 @@ Check out the demo on [JSFiddle](https://jsfiddle.net/dmalvares/05sL63g2/13/)
 ## HTML
 ```html
 <div class="custom-input">
-  <input id="EmailAddress" type="email" placeholder=" " />
+  <input id="EmailAddress" type="email" placeholder="Email Address" />
   <label for="EmailAddress">Email Address</label>
 </div>
 ```
